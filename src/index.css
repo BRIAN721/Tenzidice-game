@@ -1,0 +1,29 @@
+
+main{
+    background-color:#F5F5F5;
+    height: 550px;
+    max-width: 1500px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.tenz-container{
+    background-color:#F5F5F5;
+    display: grid;
+    grid-template:auto auto /repeat(5,1fr);
+  
+    border-radius: 10px;
+    gap:20px;
+    padding: 20px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.roll-btn{
+    margin-top: 5px;
+    width: 50px;
+}
